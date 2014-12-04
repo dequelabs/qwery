@@ -5,8 +5,7 @@
   * MIT License
   */
 
-!function () {
-  var q = require('..');
+module.exports = function(q){
   var pseudos;
   var i;
   var l;
@@ -105,4 +104,4 @@
 
   pseudos.empty = function (el) { return !el.childNodes.length }
 
-}();
+};
